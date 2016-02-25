@@ -1,5 +1,5 @@
 /*
-	D I P A N J A N's   S N A K E      G A M E
+   S N A K E      G A M E
 */
 
 #include<dos.h>
@@ -68,18 +68,18 @@ void frame()				// drawing the border
 	gotoxy(65,3);cprintf("SCORE : %3d",(l-4)*10);
 	textcolor(YELLOW);
 	for(xx=5,yy=4;xx<=75;xx++)
-		{gotoxy(xx,yy);cprintf("Í");}
+		{gotoxy(xx,yy);cprintf("Ã");}
 	for(xx=76,yy=5;yy<=45;yy++)
-		{gotoxy(xx,yy);cprintf("º");}
+		{gotoxy(xx,yy);cprintf("Âº");}
 	for(xx=5,yy=46;xx<=75;xx++)
-		{gotoxy(xx,yy);cprintf("Í");}
+		{gotoxy(xx,yy);cprintf("Ã");}
 	for(xx=4,yy=5;yy<=45;yy++)
-		{gotoxy(xx,yy);cprintf("º");}
+		{gotoxy(xx,yy);cprintf("Âº");}
 	textcolor(RED);
-	gotoxy(4,4);cprintf("É");
-	gotoxy(76,4);cprintf("»");
-	gotoxy(4,46);cprintf("È");
-	gotoxy(76,46);cprintf("¼");
+	gotoxy(4,4);cprintf("Ã‰");
+	gotoxy(76,4);cprintf("Â»");
+	gotoxy(4,46);cprintf("Ãˆ");
+	gotoxy(76,46);cprintf("Â¼");
 }
 void display()			//  for drawing the snake
 {
@@ -546,24 +546,24 @@ void chooselevel()
 	textbackground(BLACK);
 	for(xx=34,yy=23;xx<=46;xx++)
 		{
-		gotoxy(xx,yy);cprintf("Ä");
+		gotoxy(xx,yy);cprintf("Ã„");
 		}
 	for(xx=34,yy=27;xx<=46;xx++)
 		{
-		gotoxy(xx,yy);cprintf("Ä");
+		gotoxy(xx,yy);cprintf("Ã„");
 		}
 	for(xx=34,yy=24;yy<=26;yy++)
 		{
-		gotoxy(xx,yy);cprintf("³");
+		gotoxy(xx,yy);cprintf("Â³");
 		}
 	for(xx=46,yy=24;yy<=26;yy++)
 		{
-		gotoxy(xx,yy);cprintf("³");
+		gotoxy(xx,yy);cprintf("Â³");
 		}
-	gotoxy(34,23);cprintf("Ú");
-	gotoxy(46,23);cprintf("¿");
-	gotoxy(34,27);cprintf("À");
-	gotoxy(46,27);cprintf("Ù");
+	gotoxy(34,23);cprintf("Ãš");
+	gotoxy(46,23);cprintf("Â¿");
+	gotoxy(34,27);cprintf("Ã€");
+	gotoxy(46,27);cprintf("Ã™");
 	while(scan!=28)
 	{
 	textbackground(b[0]);textcolor(f[0]);
@@ -763,7 +763,7 @@ void createmaze()
 				{
 				maze[xx-5][yy-5]=1;
 				textcolor(WHITE);
-				cprintf("±");printf("\b");
+				cprintf("Â±");printf("\b");
 				}
 
 
@@ -853,27 +853,27 @@ void help_level()
 	for(xx=23,yy=23;xx<=58;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=23,yy=28;xx<=58;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=22,yy=23;yy<=28;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
 	for(xx=58,yy=23;yy<=28;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
-	gotoxy(22,23);cprintf("É");
-	gotoxy(58,23);cprintf("»");
-	gotoxy(22,28);cprintf("È");
-	gotoxy(58,28);cprintf("¼");
+	gotoxy(22,23);cprintf("Ã‰");
+	gotoxy(58,23);cprintf("Â»");
+	gotoxy(22,28);cprintf("Ãˆ");
+	gotoxy(58,28);cprintf("Â¼");
 
 	g="Press UP & DOWN arrow key to select";scroll(g,23,24);
 	g="ENTER key to proceed";scroll(g,23,25);
@@ -897,27 +897,27 @@ void help_maze()
 	for(xx=20,yy=22;xx<=71;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=19,yy=29;xx<=71;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=19,yy=22;yy<=29;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
 	for(xx=71,yy=22;yy<=29;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
-	gotoxy(19,22);cprintf("É");
-	gotoxy(71,22);cprintf("»");
-	gotoxy(19,29);cprintf("È");
-	gotoxy(71,29);cprintf("¼");
+	gotoxy(19,22);cprintf("Ã‰");
+	gotoxy(71,22);cprintf("Â»");
+	gotoxy(19,29);cprintf("Ãˆ");
+	gotoxy(71,29);cprintf("Â¼");
 
 	g="Use ARROW keys to go to desired position";scroll(g,20,23);
 	g="Hit SPACE bar to select that positon for maze";scroll(g,20,24);
@@ -943,27 +943,27 @@ void help_game()
 	for(xx=23,yy=22;xx<=57;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=23,yy=29;xx<=57;xx++)
 		{
 		gotoxy(xx,yy);
-		cprintf("Í");
+		cprintf("Ã");
 		}
 	for(xx=22,yy=22;yy<=29;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
 	for(xx=57,yy=22;yy<=29;yy++)
 		{
 		gotoxy(xx,yy);
-		cprintf("º");
+		cprintf("Âº");
 		}
-	gotoxy(22,22);cprintf("É");
-	gotoxy(57,22);cprintf("»");
-	gotoxy(22,29);cprintf("È");
-	gotoxy(57,29);cprintf("¼");
+	gotoxy(22,22);cprintf("Ã‰");
+	gotoxy(57,22);cprintf("Â»");
+	gotoxy(22,29);cprintf("Ãˆ");
+	gotoxy(57,29);cprintf("Â¼");
 
 	g="Use ARROW keys to direct the snake";scroll(g,23,23);
 	g="Hit '+' to increase your speed";scroll(g,23,24);
@@ -977,9 +977,9 @@ void quit()
 {
 	g="YOUR SCORE : ";
 	textcolor(GREEN);textbackground(RED);
-	gotoxy(30,24);cprintf("ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»");
-	gotoxy(30,25);cprintf("º                º");
-	gotoxy(30,26);cprintf("ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼");
+	gotoxy(30,24);cprintf("Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»");
+	gotoxy(30,25);cprintf("Âº                Âº");
+	gotoxy(30,26);cprintf("ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼");
 	textbackground(BLACK);textcolor(WHITE);
 	scroll(g,31,25);
 	cprintf("%3d",(l-4)*10);
