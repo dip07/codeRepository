@@ -7,7 +7,7 @@ Index and brief description of various projects uploaded till now are:
                 b) Select your own level
                 c) Speed up/down the speed of the snake
                 d) Temporarily slow down/speed up the snake
-                e) Pause/Resume
+                e) Pause/Resume the game
                 f) Score at the end of the game
                 h) Help menu accessible on pressing F1
 
