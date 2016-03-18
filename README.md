@@ -2,6 +2,7 @@ This directory contains all my projects/programs that I have done.
 There are several projects that I am planning to upload very soon.
 
 Index and brief description of various projects uploaded till now are:
+
 1. Snake Game: I created a Snake Game in my undergard years. It is written in C and uses Far pointer to access the video                    buffer of the monitor. Features supported are:
                 a) Create your own maze
                 b) Select your own level
