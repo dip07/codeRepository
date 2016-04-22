@@ -1,1 +1,2 @@
 This is a programming assignment that I did in course Algorithm for Large DataSets My teammate Gaurav Bhatt is also a collaborator in this assignment.
+In this project, we need to crawl Wikipedia pages, and search for pages which are relevant to the topics. We should be scrolling only certain number of web pages. The project requires not to visit the disallowed pages and to pause for some time after a certain number of request has been sent.
