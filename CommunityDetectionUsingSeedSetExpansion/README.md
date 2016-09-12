@@ -4,4 +4,4 @@ This is a algorithm for community detection that I have done during my course of
 My teammates were Arjun Bhattacharya( @arjun033 ) and Bijon Bose ( @Bijon90 )
 
 Read more at  
-##### https://www.slideshare.net/secret/3HiO1462ODNgUr
+##### https://www.slideshare.net/secret/IEqaSr72d0GO9A
